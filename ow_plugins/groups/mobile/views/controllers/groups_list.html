@@ -1,0 +1,44 @@
+<div class="clearfix">{add_content key='groups.add_content.list.top' listType=$listType}</div>
+
+{if empty($hideCreateNew) && !empty($showCreate)}
+    <input type="button" id='btn-create-new-group' class="owm_add_photo ow_ic_add" style="border: none;" />
+    {if !empty($authMsg)}
+        {script}
+            $('#btn-create-new-group').click(function() { OW.authorizationLimitedFloatbox({$authMsg}); });
+        {/script}
+    {else}
+        {script}{literal}
+                $('#btn-create-new-group').click(function(){location.href='{/literal}{url_for_route for="groups-create"}{literal}'})
+        {/literal}{/script}
+    {/if}
+{/if}
+
+{$menu}
+
+{add_content key='groups.content.list.after_menu' listType=$listType}
+
+<div class="owm_group_list clearfix">
+    {if isset($filterForm)}
+    <div class="owm_list_search">
+        {form name="GroupFilterForm"}
+        {foreach from=$filterFormElementsKey item='elementKey'}
+                    <span><b>{label name="$elementKey"}</b>
+                            {input name="$elementKey"}
+                    </span>
+        {/foreach}
+        {submit name="save" iconClass="ow_ic_lens" langLabel='iisgroupsplus+search_btn_label'}
+        {/form}
+    </div>
+    {/if}
+    {if empty($list) }
+    <div class="ow_nocontent">{text key="groups+listing_no_items_msg"}</div>
+    {else}
+        <div class="clearfix">
+            {foreach from=$list key='key' item='group'}
+                {decorator name='ipc' addClass='owm_list_item_with_image' data=$group infoString="<a href=\"`$group.url`\">`$group.title`</a>"}
+            {/foreach}
+        </div>
+        <div class="clearfix">{$paging}</div>
+    {/if}
+</div>
+<div class="clearfix">{add_content key='groups.add_content.list.bottom' listType=$listType}</div>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismobilesupport" label="iismobilesupport" language_tag="fa-IR" language_label="فارسی">
+    <key name="admin_save_settings">
+        <value>
+            ذخیره تنظیمات
+        </value>
+    </key>
+    <key name="admin_settings_title">
+        <value>
+            تنظیمات پشتیبان از سامانه ارسال اعلان به نرم‌افزار موبایل
+        </value>
+    </key>
+    <key name="user_save_success">
+        <value>
+            تنظیمات با موفقیت ذخیره شد.
+        </value>
+    </key>
+    <key name="fcm_api_key_label">
+        <value>
+            کلید پروژه FCM برای ارسال اعلان
+        </value>
+    </key>
+    <key name="fcm_api_url_label">
+        <value>
+            نشانی اینترنتی پروژه FCM برای ارسال اعلان
+        </value>
+    </key>
+    <key name="constraint_user_device_label">
+        <value>
+            میزان تعداد برنامه‌های فعال کاربران (حداقل: 2 و حداکثر: 999)
+        </value>
+    </key>
+    <key name="android_app_label">
+        <value>
+            برنامه Android
+        </value>
+    </key>
+    <key name="ios_app_label">
+        <value>
+            برنامه iOS
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="version_code">
+        <value>
+            نسخه ساخت
+        </value>
+    </key>
+    <key name="version_name">
+        <value>
+            عنوان نسخه
+        </value>
+    </key>
+    <key name="time">
+        <value>
+            زمان انتشار
+        </value>
+    </key>
+    <key name="versions">
+        <value>
+            انتشار نسخه جدید
+        </value>
+    </key>
+    <key name="android_versions">
+        <value>
+            نسخه‌های اندروید
+        </value>
+    </key>
+    <key name="ios_versions">
+        <value>
+            نسخه‌های آی‌او‌اس
+        </value>
+    </key>
+    <key name="delete">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="deprecate">
+        <value>
+            منسوخ شدن نسخه
+        </value>
+    </key>
+    <key name="approve">
+        <value>
+            رایج شدن نسخه
+        </value>
+    </key>
+    <key name="values">
+        <value>
+            موارد
+        </value>
+    </key>
+    <key name="type">
+        <value>
+            نوع
+        </value>
+    </key>
+    <key name="delete_version_success">
+        <value>
+            حدف با موفقیت انجام شد.
+        </value>
+    </key>
+    <key name="approve_version_success">
+        <value>
+            این نسخه دیگر منسوخ نیست.
+        </value>
+    </key>
+    <key name="deprecate_version_success">
+        <value>
+            این نسخه منسوخ شد.
+        </value>
+    </key>
+    <key name="save_success">
+        <value>
+            نسخه جدید منتشر شد.
+        </value>
+    </key>
+    <key name="url">
+        <value>
+            نشانی اینترنتی دریافت فایل
+        </value>
+    </key>
+    <key name="disable_notification_content">
+        <value>
+            حذف محتوا در اعلان
+        </value>
+    </key>
+    <key name="new_notification_label">
+        <value>
+            اعلانی جدید
+        </value>
+    </key>
+</prefix>

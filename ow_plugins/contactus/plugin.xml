@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>تماس با ما</name>
+    <key>contactus</key>
+    <description>صفحه تماس با ما، با امکان برقراری ارتباط از طریق ارسال ایمیل</description>
+    <author>zahra</author>
+    <authorEmail>zkhanalizade@gmail.com</authorEmail>
+    <authorUrl>http://www.shub.ir</authorUrl>
+    <developerKey>zahra</developerKey>
+    <build>1</build>
+    <copyright>(C) 2009 Skalfa LLC. All rights reserved.</copyright>
+    <license>The License</license>
+    <licenseUrl>http://www.shub.ir/licenses/bsd-license.php</licenseUrl>
+</plugin>

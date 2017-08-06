@@ -1,0 +1,36 @@
+<div class="owm_list_item owm_list_item_with_image  clearfix">
+    {capture name='url'}{url_for_route for="view_clip:[id=>`$data.id`]"}{/capture}
+    <div class="owm_list_section_body owm_padding">
+        <div class="owm_float_right">
+            <a class="owm_nav_cap_right" href="{$smarty.capture.url}"></a>
+    </div>
+        <div class="ow_ipc_picture">
+            {if $data.thumb == 'undefined'}
+                <img class="ow_ipc_picture_null" />
+            {else}
+                <img alt="{$data.title|escape}" title="{$data.title|escape}" src="{$data.thumb}"/>
+            {/if}
+        </div>
+        <a class="owm_list_title_format owm_list_title_unread" href="{$smarty.capture.url}">
+            <div class="owm_list_title_name owm_small_margin_bottom">
+                <div>{$data.title|truncate:55:"..."}</div>
+            </div>
+        </a>
+        <div class="owm_list_body_body">
+            {$data.description}
+        </div>
+    </div>
+    <div class="owm_list_section_toolbar owm_border">
+        <div class="owm_padding owm_list_additional_info">
+            <span class="language"><span>{text key='base+by'}:</span>
+                {user_link username=$data.username name=$data.displayName}
+            </span>
+            {if isset($data.tags)}
+            <span>
+                {text key='video+tags'}
+                {$data.tags}
+            </span>
+            {/if}
+        </div>
+    </div>
+</div>

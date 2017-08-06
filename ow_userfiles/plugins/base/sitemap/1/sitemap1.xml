@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/mobile-version?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/mobile-version?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/mobile-version" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/mobile-version</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/mobile-version?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/mobile-version" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/join?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/join?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/join" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/join</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/join?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/join" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/sign-in?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/sign-in?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/sign-in" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/sign-in</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/sign-in?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/sign-in" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/forgot-password?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/forgot-password?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/forgot-password" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>1</priority>
+        <loc>http://localhost/motoshub/forgot-password</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/forgot-password?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/forgot-password" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users/latest?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users/latest?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users/latest" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users/latest</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users/latest?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users/latest" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users/featured?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users/featured?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users/featured" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users/featured</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users/featured?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users/featured" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users/online?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users/online?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users/online" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users/online</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users/online?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users/online" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users/search?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users/search?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users/search" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/users/search</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/users/search?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/users/search" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/user/zahrakh?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/user/zahrakh?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/user/zahrakh" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/user/zahrakh</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/user/zahrakh?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/user/zahrakh" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/photo/viewlist/latest?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/photo/viewlist/latest?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/photo/viewlist/latest" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/photo/viewlist/latest</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/photo/viewlist/latest?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/photo/viewlist/latest" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/photo/viewlist/toprated?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/photo/viewlist/toprated?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/photo/viewlist/toprated" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/photo/viewlist/toprated</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/photo/viewlist/toprated?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/photo/viewlist/toprated" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/photo/viewlist/most_discussed?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/photo/viewlist/most_discussed?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/photo/viewlist/most_discussed" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/photo/viewlist/most_discussed</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/photo/viewlist/most_discussed?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/photo/viewlist/most_discussed" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/photo/viewlist/tagged?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/photo/viewlist/tagged?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/photo/viewlist/tagged" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/photo/viewlist/tagged</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/photo/viewlist/tagged?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/photo/viewlist/tagged" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/video?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/video?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/video" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/video</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/video?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/video" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/video/viewlist/latest?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/video/viewlist/latest?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/video/viewlist/latest" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/video/viewlist/latest</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/video/viewlist/latest?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/video/viewlist/latest" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/video/viewlist/toprated?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/video/viewlist/toprated?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/video/viewlist/toprated" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/video/viewlist/toprated</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/video/viewlist/toprated?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/video/viewlist/toprated" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/video/viewlist/tagged?language_id=1</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/video/viewlist/tagged?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/video/viewlist/tagged" />
+        
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <loc>http://localhost/motoshub/video/viewlist/tagged</loc>
+                <xhtml:link rel="alternate" hreflang="en" href="http://localhost/motoshub/video/viewlist/tagged?language_id=1" />
+                <xhtml:link rel="alternate" hreflang="fa-IR" href="http://localhost/motoshub/video/viewlist/tagged" />
+        
+    </url>
+
+</urlset>

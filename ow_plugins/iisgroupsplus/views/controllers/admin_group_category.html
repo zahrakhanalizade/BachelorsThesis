@@ -1,0 +1,34 @@
+<table class="ow_table_1 ow_automargin">
+    <tr class="{cycle values='ow_alt2'}">
+     <th colspan="2">{text key="iisgroupsplus+name_category"}</th>
+    </tr>
+    {foreach from=$groupListCategory item=groupCategory name=groupCategory}
+    <tr class="{cycle values='ow_alt1,ow_alt2'} {if $smarty.foreach.groupCategory.last}ow_tr_last{/if} {if $smarty.foreach.groupCategory.first}ow_tr_first{/if}">
+        <td class="ow_valign_middle">{$groupCategory.label}</td>
+        <td>
+            <a class="ow_lbutton ow_green" onclick="{$editUrls[$groupCategory.name]}" style="display: inline-block;">{text key="iisgroupsplus+edit_item"}</a>
+            {if isset($deleteUrls[$groupCategory.name])}
+            <a class="ow_lbutton ow_green" href="{$deleteUrls[$groupCategory.name]}" onclick="return confirm('{text key="iisgroupsplus+are_you_sure"}');" style="display: inline-block;"> {text key="iisgroupsplus+delete_item"} </a>
+            {/if}
+        </td>
+    </tr>
+    {/foreach}
+</table>
+
+{form name='add_category'}
+<div style="margin:0 auto"><table class="ow_table_1 ow_form ow_automargin">
+    <tr class="ow_alt1 ow_tr_first ow_tr_last">
+		<td class="ow_value">{input name='label'}</td>
+        <div class="owm_error_txt">{error name="label"}</div>
+	</tr>
+</table>
+    <div class="clearfix ow_submit ow_stdmargin">
+    	<div class="ow_right">
+        {submit name='add' class='ow_button ow_ic_save'}
+	</div></div>
+</div>	
+
+{/form}
+
+{*<a href="{$deleteCatUrls[$id]}" onclick="return confirm('{text key="base+are_you_sure"}');" style="width:16px; height:16px; display:block; margin:0 auto;background-repeat:no-repeat;background-position: 50% 50%;" class="ow_ic_delete"></a>*}
+

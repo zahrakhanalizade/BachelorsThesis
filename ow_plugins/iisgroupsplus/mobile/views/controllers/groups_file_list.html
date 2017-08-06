@@ -1,0 +1,62 @@
+<style>
+    @media only screen and (max-width : 450px) {
+        .owm_group_file_date{
+            display: none;
+        }
+    }
+</style>
+<div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+    <div class="owm_float_left">
+        <a class="owm_nav_cap_left" href="{$backUrl}"></a>
+    </div>
+    <h3> {text key="base+back"}</h3>
+    {if isset($showAdd) && $showAdd==true}
+    <input type="button" class="owm_ic_add" value={text key="iisgroupsplus+add_file"} style="border: none;float: left;margin: 15px;" onclick="showUploadFileIntoGroupForm({$groupId})"/>
+    {/if}
+</div>
+<div class="owm_box">
+    <div class="owm_lp_avatars">
+
+        <div style="width: 100%;display: inline-block;text-align: center;">
+            <table class="owm_table_1 owm_form owm_stdmargin">
+
+                <tr>
+                    <th></th>
+                    <th style="font-weight: bold;font-size: 17px;">{text key="iisgroupsplus+name"}</th>
+                    <th class="owm_group_file_date" style="font-weight: bold;font-size: 17px;">{text key="iisgroupsplus+created_date"}</th>
+                    <th style="font-weight: bold;font-size: 17px;">{text key="iisgroupsplus+by"}</th>
+                    <th></th>
+                </tr>
+                {foreach from=$fileList item='file' name='file'}
+                <tr class="owm_alt2 ow_tr_first">
+                    <td class="fileGroupImage" style="padding: 0px;">
+                        <a href="{$file.fileUrl}">
+                            <img src="{$file.iconUrl}" alt="{$file.fileName|escape}" title="{$file.fileName}" style="max-width: 100%;width: 65px;height: auto !important;"  />
+                        </a>
+                    </td>
+                    <td style="max-width:150px ">
+                        <a href="{$file.fileUrl}">{$file.truncatedFileName}  </a>
+                    </td>
+                    <td class="owm_group_file_date">
+                        {format_date timestamp=$file.createdDate}
+                    </td>
+                    <td>
+                        {$file.userName}
+                    </td>
+                    {if isset($deleteUrls[$file.name])}
+                    <td>
+                        <a href="{$deleteUrls[$file.name]}" onclick="return confirm('{text key="iisgroupsplus+are_you_sure_delete_file"}');" style="font-size: 21PX;">×</a>
+                    </td>
+                    {else}
+                    <td></td>
+                    {/if}
+                </tr>
+                {foreachelse}
+                <div class="owm_nocontent">{text key='iisgroupsplus+file_list_widget_empty'}</div>
+                {/foreach}
+            </table>
+        </div>
+</div>
+</div>
+
+{$paging}

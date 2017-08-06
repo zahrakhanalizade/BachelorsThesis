@@ -1,0 +1,64 @@
+
+<div id="video_edit_form" class="owm_full_page_form ow_superwide ow_automargin">
+
+    <div class="owm_nav_cap owm_nav_cap_left_cont owm_bg_color_3 owm_border clearfix">
+        <div class="owm_float_left">
+            <a class="owm_nav_cap_left" href="{$backUrl}"></a>
+        </div>
+        <h3> {text key="base+back"}</h3>
+    </div>
+    {form name='videoEditForm'}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='code'}</div>
+            <div class="owm_form_field_value">{input name='code'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='code'}</div>
+    </div>
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='title'}</div>
+            <div class="owm_form_field_value">{input name='title'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='title'}</div>
+    </div>
+    {if isset($videoUploadField)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='videoUpload'}</div>
+            <div class="owm_form_field_value">{input name='videoUpload'}</div>
+        </div>
+        <div class="owm_form_field_desc">{text key='iisvideoplus+video_edit_upload_desc'}</div>
+        <div class="owm_error_txt">{error name='videoUpload'}</td></div>
+    </div>
+    {/if}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='description'}</div>
+            <div class="owm_form_field_value">{input name='description'}</div>
+        </div>
+        <div class="owm_error_txt">{error name='description'}</div>
+    </div>
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='tags'}</div>
+            <div class="owm_form_field_value">{input name='tags'}</div>
+            <div class="owm_form_field_desc">{text key='video+tags_desc'}</div>
+        </div>
+    </div>
+    {if isset($statusPrivacyField)}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='statusPrivacy'}</div>
+            <div class="owm_form_field_value">{input name='statusPrivacy'}</div>
+        </div>
+    </div>
+    {/if}
+    <div class="owm_form_field_container">
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label"></div>
+            <div class="owm_form_field_value">{submit name='edit' class='ow_ic_save ow_positive'}</div>
+        </div>
+    </div>
+    {/form}
+</div>

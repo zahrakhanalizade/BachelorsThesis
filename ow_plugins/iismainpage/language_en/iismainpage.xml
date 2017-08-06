@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismainpage" label="iismainpage" language_tag="en" language_label="English">
+    <key name="mobile_main_menu_list">
+        <value>
+            Main page
+        </value>
+    </key>
+    <key name="settings">
+        <value>
+            Settings
+        </value>
+    </key>
+    <key name="chat">
+        <value>
+            Chats
+        </value>
+    </key>
+    <key name="mail">
+        <value>
+            Messages
+        </value>
+    </key>
+    <key name="find_friends">
+        <value>
+            Find New Friends
+        </value>
+    </key>
+</prefix>

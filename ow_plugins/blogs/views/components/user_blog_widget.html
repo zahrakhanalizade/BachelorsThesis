@@ -1,0 +1,19 @@
+{if $list}
+    {foreach name='posts' from=$list item="item"}
+        {assign var=id value=$item.dto->id}
+        {capture assign='info'}
+                {$item.dto->getPost()}
+        {/capture}
+        {decorator name="ic" titleHref=$item.titleHref title=$item.dto->title|strip_tags info=$info toolbar=$tb.$id first = $smarty.foreach.posts.first last = $smarty.foreach.posts.last}
+    {/foreach}
+{else}
+    {text key='base+empty_list'}
+{/if}
+
+{if isset($my_drafts_url)}
+<div style="" class="ow_box ow_stdmargin clearfix ow_no_cap ow_break_word">
+    <div class="ow_my_drafts_widget clearfix ow_center">
+        {decorator name="button" langLabel="blogs+my_drafts" class="ow_ic_draft" onclick="location.href='$my_drafts_url'"}
+    </div>
+</div>
+{/if}

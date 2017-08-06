@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefix name="contactus" label="Contact Us" language_tag="fa-IR" language_label="فارسی">
+
+    <key name="index_page_title">
+        <value>تماس با ما</value>
+    </key>
+
+
+</prefix>

@@ -1,0 +1,16 @@
+<div>
+    <div class="owm_photo_block">
+        {if !$isEmpty}
+            <div class="owm_photo_list">
+                <div class="owm_photo_list_tr clearfix" id="photo-list-cont">{$photos}</div>
+            </div>
+            {if $loadMore}
+            <div class="owm_photo_list_load_more owm_bg_color_3">
+                <a href="javascript://" id="btn-photo-load-more"></a>
+            </div>
+            {/if}
+        {else}
+            <div class="ow_nocontent">{text key='base+empty_list'}</div>
+        {/if}
+    </div>
+</div>

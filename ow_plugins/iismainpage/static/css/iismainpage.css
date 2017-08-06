@@ -1,0 +1,172 @@
+.tabs {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.25em;
+}
+
+.tabs-style-underline nav {
+    background: #fff;
+}
+
+.tabs nav {
+    text-align: center;
+}
+
+.tabs nav ul {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+.tabs nav ul li {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0;
+    text-align: center;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.tabs nav li.tab-current a {
+    color: #74777b;
+}
+
+.tabs-style-underline li {
+    border-left: 1px solid #e7ecea;
+}
+
+.tabs .iismainpage img {
+    max-width: 20px;
+    margin-top: 3px;
+}
+
+.tabs-style-underline nav a.title {
+    padding: 0px 0 8px;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.tabs nav a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.tabs-style-underline nav a span {
+    font-weight: 700;
+}
+
+.tabs nav a span {
+    vertical-align: middle;
+    font-size: 65%;
+    line-height: 17px;
+}
+
+.tabs-style-underline nav li a.title::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: #0f827e;
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: translate3d(0,150%,0);
+    transform: translate3d(0,150%,0);
+}
+
+.tabs-style-underline nav li.tab-current a.title::after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.iismainpage.ow_lp_avatars {
+    margin-top: 10px;
+}
+
+.owm_sidebar_profile_btn.owm_find_friends_btn {
+    margin: 0px;
+}
+
+.iismainpage .group {
+    width: 94%;
+    border: solid 1px lightgray;
+    margin: 1%;
+    padding: 1%;
+    text-align: right;
+}
+.tabs nav a span span.owm_sidebar_count_txt {
+    font-size: 100%;
+}
+span.owm_sidebar_count {
+    padding: 0px 1px 1px 1px !important;
+    position: absolute;
+    left: 2px !important;
+    top: 1px !important;
+    line-height: 1 !important;
+}
+.owm_content_list_item.owm_convers_item_active {
+    background-color: rgba(15, 130, 126, 0.2);
+}
+.iismainpage .owm_user_list_item .owm_newsfeed_date {
+    border: none;
+}
+.owm_convers_item_active span#mailboxSidebarConversationsItemDisplayName a {
+    font-size: 100%;
+    font-weight: bold;
+}
+span.owm_sidebar_count {
+    position: absolute;
+    left: 2px !important;
+    top: 1px !important;
+    padding-top: 0px !important;
+    padding-bottom: 1px !important;
+    padding-left: 1px !important;
+    line-height: 1 !important;
+}
+.iismainpage .owm_profile_online {
+    right: 4px !important;
+    top: 4px !important;
+}
+.iismainpage .owm_user_list_preloader {
+    visibility: hidden;
+    float: left;
+    width: 100%;
+}
+.iismainpage .owm_user_list_item {
+    padding-right: 10px !important;
+}
+.iismainpage .owm_user_list_item:lang(fa-IR) {
+    padding-right: 62px !important;
+    padding-left: 10px !important;
+}
+.iismainpage .owm_list_item_with_image {
+    font-size: 15px;
+}

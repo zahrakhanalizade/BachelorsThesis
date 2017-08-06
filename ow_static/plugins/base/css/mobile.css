@@ -1,0 +1,39 @@
+/* Newsfeed formats*/
+.owm_video_format.ow_video_playing iframe,
+.owm_video_format.ow_video_playing object,
+.owm_video_format.ow_video_playing embed {
+    width:100%;
+}
+/* end of Newsfeed formats*/
+/*progressbar*/
+#progress-div {
+    display: none;
+    border: 1px solid rgba(121, 228, 125, 0.521569);
+    background-color: rgba(212, 255, 218, 0.843137);
+    padding: 3px;
+    margin: 0px;
+    position: fixed;
+    z-index: 10000;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    direction: initial;
+}
+#progress-div #progress-bar {
+    padding: 4px 0px;
+    margin: 0px;
+    height: 18px;
+    text-align: center;
+    width: 0%;
+    transition: width 0.3s;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(43, 194, 83);
+    position: relative;
+    box-shadow: rgba(255, 255, 255, 0.298039) 0px 2px 9px inset, rgba(0, 0, 0, 0.4) 0px -2px 6px inset;
+}
+#progress-div #progress-bar #progress-status {
+    height: inherit;
+    overflow: hidden;
+}
+/*progressbar*/

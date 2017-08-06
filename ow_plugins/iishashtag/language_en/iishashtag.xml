@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iishashtag" label="iishashtag" language_tag="en" language_label="English">
+    <key name="settings">
+        <value>
+            Settings
+        </value>
+    </key>
+    <key name="max_count">
+        <value>
+            Maximum number of list items
+        </value>
+    </key>
+    <key name="admin_settings_heading">
+        <value>
+            Hashtag Settings
+        </value>
+    </key>
+    <key name="save_btn_label">
+        <value>
+            Save
+        </value>
+    </key>
+
+    <key name="tag">
+        <value>
+            tag
+        </value>
+    </key>
+    <key name="main_menu_item">
+        <value>
+            Hashtag
+        </value>
+    </key>
+    <key name="mobile_main_menu_item">
+        <value>
+            Hashtag
+        </value>
+    </key>
+    <key name="plugin_requires_newsfeed">
+        <value>
+            Hashtag plugin requires another plugin: "Newsfeed"
+        </value>
+    </key>
+    <key name="list_page_title">
+        <value>
+            Hashtag of
+        </value>
+    </key>
+    <key name="list_page_title_default">
+        <value>
+            Hashtag
+        </value>
+    </key>
+    <key name="top_hashtags">
+        <value>
+            Top Hashtags
+        </value>
+    </key>
+    <key name="search_hashtag">
+        <value>
+            Search tags
+        </value>
+    </key>
+    <key name="search">
+        <value>
+            Search
+        </value>
+    </key>
+
+
+    <key name="at">
+        <value>
+            At
+        </value>
+    </key>
+    <key name="menu_newsfeed">
+        <value>
+            Newsfeed
+        </value>
+    </key>
+    <key name="menu_news">
+        <value>
+            News
+        </value>
+    </key>
+    <key name="menu_groups">
+        <value>
+            Groups
+        </value>
+    </key>
+    <key name="menu_event">
+        <value>
+            Events
+        </value>
+    </key>
+    <key name="menu_video">
+        <value>
+            Videos
+        </value>
+    </key>
+    <key name="menu_photo">
+        <value>
+            Photos
+        </value>
+    </key>
+</prefix>

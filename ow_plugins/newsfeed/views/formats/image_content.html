@@ -1,0 +1,88 @@
+{style}
+    {literal}
+        .feedRtl {
+            direction: rtl;
+            text-align: right;
+            }
+
+        .feedLtr {
+            direction: ltr;
+            text-align: left;
+            }
+    {/literal}
+{/style}
+
+{script}
+{literal}
+    function checkRtl( character ) {
+        var RTL = ['ا','ب','پ','ت','س','ج','چ','ح','خ','د','ذ','ر','ز','ژ','س','ش','ص','ض','ط','ظ','ع','غ','ف','ق','ک','گ','ل','م','ن','و','ه','ی'];
+        return RTL.indexOf( character ) > -1;
+    }
+
+    function checkLtr( character ) {
+        var LTR = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+        return LTR.indexOf( character ) > -1;
+    }
+
+    function fixAlignment (divs)
+    {
+        for ( var index = 0; index < divs.length; index++ )
+        {
+            var isRtl=false;
+            for ( var indexText = 0; indexText < divs[index].innerText.length; indexText++ )
+            {
+                if( checkRtl( divs[index].innerText[indexText] ) )
+                {
+                    divs[index].className += " feedRtl";
+                    isRtl =true;
+                    break;
+                }else if( checkLtr( divs[index].innerText[indexText] ) ){
+                    break;
+                }
+            }
+            if(!isRtl){
+                divs[index].className += " feedLtr";
+            }
+        }
+    }
+
+    function addLtrToPictures(divs){
+        for ( var index = 0; index < divs.length; index++ )
+        {
+            divs[index].className += " feedLtr";
+        }
+    }
+
+    $(document).ready(
+        function(){
+                fixAlignment(document.getElementsByClassName('ow_newsfeed_item_content'));
+                fixAlignment(document.getElementsByClassName('ow_autolink'));
+                fixAlignment(document.getElementsByClassName('ow_newsfeed_body_status'));
+                fixAlignment(document.getElementsByClassName('ow_newsfeed_content'));
+                addLtrToPictures(document.getElementsByClassName('ow_newsfeed_item_picture'));
+        }
+    );
+{/literal}
+{/script}
+{if !empty($vars.status)}<div class="ow_newsfeed_body_status ow_smallmargin">{$vars.status|more:300}</div>{/if}
+
+<div class="ow_newsfeed_oembed_atch clearfix">
+    <div class="ow_newsfeed_item_picture">
+        <a target="_blank" href="{if !empty($vars.url)}{$vars.url}{else}javascript://{/if}"><img src="{$vars.thumbnail}" alt="{$vars.title|escape}" /></a>
+    </div>
+    <div class="ow_newsfeed_item_content">
+        <a target="_blank" class="ow_newsfeed_item_title" href="{if !empty($vars.url)}{$vars.url}{else}javascript://{/if}">{$vars.title}</a>
+        <div class="ow_remark ow_smallmargin">{$vars.description}</div>
+
+        {if $vars.userList}
+            <div class="owm_newsfeed_ulist">
+                <div class="owm_newsfeed_item_padding owm_newsfeed_item_box clearfix">
+                    <div class="owm_newsfeed_ulist_count" style="display:inline-block">
+                        {$vars.userList.label}
+                    </div>
+                    {$vars.userList.list}
+                </div>
+            </div>
+        {/if}
+    </div>
+</div>

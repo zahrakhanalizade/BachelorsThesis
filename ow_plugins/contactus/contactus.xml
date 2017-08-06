@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <prefix name=" contactus" label=" Contact Us" language_tag="fa" language_label="فارسی">
+
+        <key name=" admin_dept_heading">
+            <value> ارتباط با ما:بخش </value>
+        </key>
+        <key name=" bottom_menu_item">
+            <value> تماس با ما</value>
+        </key>
+        .
+        .
+        .
+        <key name=" form_label_from">
+            <value> ایمیل شما</value>
+        </key>
+
+    </prefix>

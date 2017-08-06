@@ -1,0 +1,21 @@
+<div class="owm_group_view">
+    <div class="owm_list_item_view_title  clearfix owm_nav_cap owm_nav_cap_left_cont owm_nav_cap_right_cont owm_bg_color_3">
+        <div class="owm_float_left">
+            <a class="owm_nav_cap_left" href="{$backUrl}"></a>
+        </div>
+        <h4>
+            {text key="base+back"}
+        </h4>
+    </div>
+
+    <div class="owm_brief_info" style="margin-top:10px">
+        {$groupBriefInfo}
+    </div>
+    <div class="owm_box owm_view_user_list" >
+        <div class="owm_box_body owm_align_center" style="padding: 10px;">
+            {add_content key='groups.content.user_list.after_cap' groupId=$groupId}
+            {$listCmp}
+            {add_content key='groups.content.user_list.bottom' groupId=$groupId}
+        </div>
+    </div>
+</div>

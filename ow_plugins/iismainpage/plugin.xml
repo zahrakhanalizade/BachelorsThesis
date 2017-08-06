@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>صفحه اصلی تلفن همراه</name>
+    <key>iismainpage</key>
+    <description>ارائه کننده یک صفحه به عنوان صفحه اصلی در نسخه تلفن همراه به عنوان نمایش‌دهنده صفحات داشبورد، گروه‌های من، مخاطبان، پیام‌ها و تنظیمات برای کاربر وارد شده</description>
+    <author>Issa Annamoradnejad</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10802</build>
+    <copyright>(C) 2017 SHUB.IR. All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+</plugin>

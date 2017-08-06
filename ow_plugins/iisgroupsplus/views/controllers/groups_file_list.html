@@ -1,0 +1,47 @@
+<div class="ow_lp_avatars">
+    {if isset($showAdd) && $showAdd==true}
+    <span class="ow_button" style="margin-bottom: 10px;">
+         <span class="ow_ic_add">
+             <input type="button" class="ow_ic_add" value={text key="iisgroupsplus+add_file"} style="border: none;" onclick="showUploadFileIntoGroupForm({$groupId})"/>
+         </span>
+     </span>
+    {/if}
+    <a href="{$backUrl}" style="float: right;">{text key='iisgroupsplus+back'} </a>
+    <table class="ow_table_1 ow_form ow_stdmargin">
+        <tr>
+            <th></th>
+            <th>{text key="iisgroupsplus+name"}</th>
+            <th>{text key="iisgroupsplus+created_date"}</th>
+            <th>{text key="iisgroupsplus+by"}</th>
+            <th></th>
+        </tr>
+        {foreach from=$fileList item='file' name='file'}
+        <tr class="ow_alt2 ow_tr_first">
+            <td class="fileGroupImage" style="padding: 0px;">
+                <a href="{$file.fileUrl}">
+                    <img src="{$file.iconUrl}" alt="{$file.fileName|escape}" title="{$file.fileName}" style="max-width: 100%;width: 60PX;height: auto !important;"  />
+                </a>
+            </td>
+            <td>
+                <a href="{$file.fileUrl}">{$file.truncatedFileName}  </a>
+            </td>
+            <td>
+                {format_date timestamp=$file.createdDate}
+            </td>
+            <td>
+                {$file.userName}
+            </td>
+            {if isset($deleteUrls[$file.name])}
+            <td>
+                <a href="{$deleteUrls[$file.name]}" onclick="return confirm('{text key="iisgroupsplus+are_you_sure_delete_file"}');" style="width:16px; height:16px; display:block; margin:0 auto;background-repeat:no-repeat;background-position: 50% 50%;" class="ow_ic_delete"></a>
+            </td>
+            {else}
+            <td></td>
+            {/if}
+        </tr>
+        {foreachelse}
+            <div class="ow_nocontent">{text key='iisgroupsplus+file_list_widget_empty'}</div>
+        {/foreach}
+    </table>
+    {$paging}
+</div>

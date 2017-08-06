@@ -1,0 +1,9 @@
+# Version 1.8.4 (8722)
+- avatar has been removed from notification email
+- Email styles updated
+
+# Version 1.8.4 (8721)
+- mobile version has been added
+
+# Version 1.8.4 (8720)
+- fixed extract permission problem in Cpanel

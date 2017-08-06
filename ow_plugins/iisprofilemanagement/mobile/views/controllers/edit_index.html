@@ -1,0 +1,130 @@
+{style}
+.ow_avatar_crop_result {
+    display: none;
+}
+{/style}
+{literal}
+<script language="javascript" type="text/javascript">
+    $(function(){
+        $(".unregister_profile_button").click(
+                function() { window.location = {/literal}"{$unregisterProfileUrl}"{literal} }
+        );
+    });
+</script>
+{/literal}
+<div class="owm_full_page_form owm_edit_profile ow_superwide ow_automargin">
+    <div style="margin-bottom: 3px">
+        {if !empty($changePassword) }
+            {block_decorator name="box" type="empty" addClass="ow_superwide ow_automargin" }
+            <div class="clearfix ow_stdmargin">
+                {$changePassword}
+            </div>
+            {/block_decorator}
+        {/if}
+
+        {if isset($editSynchronizeHook)}
+            {block_decorator name="box" addClass="ow_center" iconClass='ow_ic_update' langLabel='base+edit_remote_field_synchronize_title' style="overflow:hidden;"}
+            {foreach from=$editSynchronizeHook item='item'}
+            {$item}
+            {/foreach}
+            {/block_decorator}
+            {block_decorator name="box" type="empty" addClass="ow_center" style="padding:15px;"}
+            {text key="base+join_or"}
+            {/block_decorator}
+        {/if}
+    </div>
+
+    {form name=editForm}
+        {if $displayAccountType}
+        <div class="owm_field_container owm_std_margin_bottom">
+            <div class="owm_form_label owm_small_margin_bottom">{label name='accountType'}<span class="owm_required_star"></span></div>
+            <div class="owm_field_wrap owm_select_wrap">{input name='accountType'}</div>
+            <div class="owm_error_txt">{error name='accountType'}</div>
+        </div>
+        {/if}
+
+        {foreach from=$questionArray key='section' item='questions' name='section'}
+            {if !empty($section) }
+                <div class="owm_field_container owm_section owm_std_margin_bottom">
+                    <span class="owm_section_label">{text key="base+questions_section_`$section`_label"}</span><div class="owm_section_border"></div>
+                </div>
+            {/if}
+            {foreach from=$questions item='question' name='question'}
+                {if $question.name=='password'}
+                    <div class="owm_field_container owm_small_margin_bottom {* owm_field_required *} {if !empty($question.trClass)}{$question.trClass}{/if}">
+                        <div class="owm_form_label owm_small_margin_bottom">{label name=$question.name}</div>
+                        <div class="{if !empty($presentationToClass[$question.presentation]) }{$presentationToClass[$question.presentation]}{else}owm_field_wrap{/if}">
+                            {input name='repeatPassword'}
+                        </div>
+                        <div class="owm_error_txt">{error name=$question.name}</div>
+                    </div>
+                {else}
+                    <div class="owm_form_field_container">
+                        <div class="owm_form_field_wrap">
+                            <div class="owm_form_field_label">{label name=$question.name}</div>
+                            <div class="owm_form_field_value">{input name=$question.name}</div>
+                        </div>
+                        <div class="owm_error_txt">{error name=$question.name}</div>
+                    </div>
+                {/if}
+            {/foreach}
+        {/foreach}
+
+        {if isset($display_parent_email) &&  $display_parent_email}
+            <div class="owm_form_field_container parent_email">
+                <div class="owm_section owm_std_margin_bottom">
+                    <span class="owm_section_label">{text key="iiscontrolkids+join_parent_email_header"}</span><div class="owm_section_border"></div>
+                </div>
+                <div class="owm_form_field_wrap">
+                    <div class="owm_form_field_label">{label name='parentEmail'}</div>
+                    <div class="owm_form_field_value">{input name='parentEmail'}</div>
+                </div>
+                <div class="owm_error_txt">{error name='parentEmail'}</div>
+            </div>
+        {/if}
+
+    <div class="owm_form_field_container">
+        <div class="owm_section owm_std_margin_bottom">
+            <span class="owm_section_label">{text key="base+questions_section_user_photo_label"}</span><div class="owm_section_border"></div>
+        </div>
+        <div class="owm_form_field_wrap">
+            <div class="owm_form_field_label">{label name='avatar'}</div>
+            <div class="owm_form_field_value">
+                <div class="owm_field_container join_photo_upload owm_upload_photo_browse_wrap clearfix owm_bg_color_3 owm_field_wrap">
+                    <div class="owm_join_photo_button">
+                        <a class="owm_upload_photo_choose_btn" href="javascript://">{input name='avatar'}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="owm_error_txt">{error name='avatar'}</div>
+    </div>
+
+        {if !$adminMode && !$isAdmin && $approveEnabled}
+            <div class="owm_section owm_std_margin_bottom">
+                <span class="owm_section_label">{text key="base+edit_profile_warning"}</span>
+                <div class="owm_section_border"></div>
+            </div>
+        {/if}
+
+        {if $adminMode}
+            {if !$isUserApproved && !$isEditedUserModerator}
+                {decorator name="button" class="delete_user_by_moderator ow_ic_delete ow_red ow_negative" langLabel='base+delete_profile'}
+            {/if}
+            <div class="ow_right">
+                {if !$isUserApproved}
+                {decorator name="button" class="write_message_button ow_green ow_positive" langLabel='base+write_message'}
+                {submit name='saveAndApprove'}
+                {/if}
+            </div>
+        {else}
+            {if !$isAdmin}
+                {decorator name="button" class="unregister_profile_button ow_ic_delete ow_red ow_negative" langLabel='base+delete_profile'}
+            {/if}
+        {/if}
+
+        <div class="owm_btn_wide owm_std_margin_top">
+            {submit name='editSubmit'}
+        </div>
+    {/form}
+</div>

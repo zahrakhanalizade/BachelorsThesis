@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismobilesupport" label="iismobilesupport" language_tag="en" language_label="English">
+	<key name="admin_save_settings"><value>Save Settings</value></key>
+	<key name="admin_settings_title"><value>Admin mobile support - Settings</value></key>
+	<key name="user_save_success"><value>Settings saved successfully</value></key>
+	<key name="fcm_api_key_label"><value>FCM key for sending notification</value></key>
+	<key name="fcm_api_url_label"><value>FCM Url for sending notification</value></key>
+    <key name="constraint_user_device_label"><value>The number of user apps(Min: 2, Max: 999)</value></key>
+    <key name="android_app_label"><value>Android Application</value></key>
+    <key name="ios_app_label"><value>iOS Application</value></key>
+	<key name="settings">
+		<value>
+			Settings
+		</value>
+	</key>
+	<key name="version_code">
+		<value>
+			Version code
+		</value>
+	</key>
+	<key name="version_name">
+		<value>
+			Version name
+		</value>
+	</key>
+	<key name="time">
+		<value>
+			Time of publishing
+		</value>
+	</key>
+	<key name="versions">
+		<value>
+			Publish new version
+		</value>
+	</key>
+	<key name="android_versions">
+		<value>
+			Android versions
+		</value>
+	</key>
+	<key name="ios_versions">
+		<value>
+			iOS versions
+		</value>
+	</key>
+	<key name="delete">
+		<value>
+			Delete
+		</value>
+	</key>
+	<key name="deprecate">
+		<value>
+			Deprecate
+		</value>
+	</key>
+	<key name="approve">
+		<value>
+			Approve
+		</value>
+	</key>
+	<key name="values">
+		<value>
+			Values
+		</value>
+	</key>
+	<key name="type">
+		<value>
+			Type
+		</value>
+	</key>
+	<key name="delete_version_success">
+		<value>
+			Item deleted successfully.
+		</value>
+	</key>
+	<key name="approve_version_success">
+		<value>
+			Item deleted from deprecated list.
+		</value>
+	</key>
+	<key name="deprecate_version_success">
+		<value>
+			Item added into deprecated list.
+		</value>
+	</key>
+	<key name="save_success">
+		<value>
+			Item published successfully.
+		</value>
+	</key>
+	<key name="url">
+		<value>
+			Download url
+		</value>
+	</key>
+	<key name="disable_notification_content">
+		<value>
+			Remove content from notification
+		</value>
+	</key>
+	<key name="new_notification_label">
+		<value>
+			New notification
+		</value>
+	</key>
+</prefix>

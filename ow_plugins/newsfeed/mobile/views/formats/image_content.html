@@ -1,0 +1,82 @@
+{style}
+    {literal}
+        .feedRtl {
+        direction: rtl;
+        text-align: right;
+        }
+
+        .feedLtr {
+        direction: ltr;
+        text-align: left;
+        }
+    {/literal}
+{/style}
+
+{script}
+    {literal}
+        function checkRtl( character ) {
+            var RTL = ['ا','ب','پ','ت','س','ج','چ','ح','خ','د','ذ','ر','ز','ژ','س','ش','ص','ض','ط','ظ','ع','غ','ف','ق','ک','گ','ل','م','ن','و','ه','ی'];
+            return RTL.indexOf( character ) > -1;
+        }
+
+        function checkLtr( character ) {
+            var LTR = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+            return LTR.indexOf( character ) > -1;
+        }
+        function fixAlignment (divs){
+             for ( var index = 0; index < divs.length; index++ ) {
+                    var isRtl=false;
+                for ( var indexText = 0; indexText < divs[index].innerText.length; indexText++ ) {
+                    if( checkRtl( divs[index].innerText[indexText] ) ) {
+                        divs[index].className += " feedRtl";
+                        isRtl =true;
+                        break;
+                    }else if( checkLtr( divs[index].innerText[indexText] ) ){
+                        break;
+                    }
+                }
+                if(!isRtl){
+                    divs[index].className += " feedLtr";
+                }
+             }
+        }
+        $(document).ready(
+            function(){
+                fixAlignment(document.getElementsByClassName('owm_newsfeed_item_content'));
+                fixAlignment(document.getElementsByClassName('ow_autolink'));
+                fixAlignment(document.getElementsByClassName('owm_newsfeed_body_status'));
+                fixAlignment(document.getElementsByClassName('owm_newsfeed_item_padding'));
+                fixAlignment(document.getElementsByClassName('owm_newsfeed_content'));
+            }
+        );
+    {/literal}
+{/script}
+<div class="owm_newsfeed_body_status">{$vars.status}</div>
+<div class="owm_newsfeed_body_pic">
+    <a href="{if $vars.url}{$vars.url}{else}javascript://{/if}" style="background-image: url({$vars.image});"><img src="{$blankImg}"></a>
+</div>
+<div class="owm_newsfeed_body_cont">
+    <div class="owm_newsfeed_item_padding owm_newsfeed_item_box clearfix">
+        <div class="owm_newsfeed_body_icon {if $vars.iconClass}{$vars.iconClass}{/if}"></div>
+        <div class="owm_newsfeed_body_info_wrap">
+            <div class="owm_newsfeed_body_info">
+                <div class="owm_newsfeed_body_title"><b>{if $vars.url}<a href="{$vars.url}">{/if}{$vars.title}{if $vars.url}</a>{/if}</b></div>
+                <div class="owm_newsfeed_body_descr">{$vars.description}</div>
+            </div>
+        </div>
+    </div>
+    {if $vars.userList}
+        <div class="owm_newsfeed_ulist">
+            <div class="owm_newsfeed_item_padding owm_newsfeed_item_box clearfix">
+                <div class="owm_newsfeed_ulist_count">
+                    {$vars.userList.label}
+                </div>
+                <div class="owm_newsfeed_ulist_avatars">
+                    {foreach from=$vars.userList.list item="user"}
+                        {decorator name="avatar_item" data=$user}
+                    {/foreach}
+                </div>
+            </div>
+        </div>
+    {/if}
+</div>

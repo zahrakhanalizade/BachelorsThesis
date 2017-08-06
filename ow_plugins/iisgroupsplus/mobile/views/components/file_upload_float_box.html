@@ -1,0 +1,23 @@
+<div class="ow_create_group clearfix">
+
+    <div class="ow_superwide ow_automargin">
+	    {form name='fileUploadForm'}
+
+	        <table class="ow_table_1 ow_form">
+	            <tr class="ow_alt2 ow_tr_first">
+	                <td class="ow_label">{label name='name'}</td>
+	                <td class="ow_value">{input name='name'} {error name='name'}</td>
+	                <td class="ow_desc ow_small"></td>
+	            </tr>
+	            <tr class="ow_alt1">
+	                <td class="ow_label">{label name='fileUpload'}</td>
+	                <td class="ow_value">{input name='fileUpload'}<br />{error name='fileUpload'}</td>
+	                <td class="ow_desc ow_small"></td>
+	            </tr>
+				<div id="targetLayer"></div>
+	        </table>
+            <div class="clearfix ow_stdmargin"><div class="ow_right">{submit name='save' class='ow_ic_new'}</div></div>
+	    {/form}
+    </div>
+
+</div>
