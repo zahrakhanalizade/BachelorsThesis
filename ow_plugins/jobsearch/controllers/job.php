@@ -16,8 +16,9 @@ class JOBSEARCH_CTRL_Job extends OW_ActionController
 //        $all = JOBADS_BOL_AdDao::getInstance()->getAllAds();
 
     }
+    public function addJob(){
 
-
+    }
 
 
 }

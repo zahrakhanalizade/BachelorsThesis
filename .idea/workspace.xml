@@ -2,77 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcdaeac-2406-4fe9-8317-62d3846d7bbc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/applying.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/applying_dao.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement_skill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement_skill_dao.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/skill.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/skill_dao.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/company.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/company_dao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/1838098393579e3204d9cd9cb07d2e5e1baadc71_0.file.floatbox.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/1865df8dd4659239df3e07cd4b6da282335e9fb3_0.file.button.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/1db9291560e88be94ba04541f17332d7e8f7fba6_0.file.welcome_widget.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/2404a59fbdd7ba6f4fd4a14ce56a4c56fa4336c9_0.file.new_message.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/246447eafaa60817c4aede6e6fcbd0192c9d263c_0.file.plugins_uninstall_request.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/2cd2d5d9b57d5815acc3086215affbebadbf6138_0.file.toolbar.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/307bc2855de329d5523f7406007e8e1715407fe6_0.file.index_photo_list.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/3597d94a8ec2993382b26284ee62e074935d10f1_0.file.drag_and_drop_item.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/3c41bd22218969cd0bc11517cc872ff2914d4b3b_0.file.attachment.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/4069f6c976b03f448809c48c7aae3153984ed156_0.file.console_list.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/432a6c9b1ae001437b36dceb09bc7ef598aa5fa7_0.file.chat_user_list.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/435236da52e247f5cd98b2f32d36bcc0867ed841_0.file.admin_menu.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/4612fdd891c09502e170470939a47fdd13813edc_0.file.file_attachment.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/4803dad9e213544f0b35817a3664c0ed78be063a_0.file.console_dropdown_menu.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/4fe14455b03b6626d0b578776540d23081e85a3e_0.file.console_list.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/52cfedbf3bc68673d5d885f12bd3feaa02cd1330_0.file.feed_widget.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/53a6ffc433b9f9427aab1000440617ce8f985a91_0.file.avatar_item.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/53fb57882b9aa033516fb6ef715d32c61d985bb5_0.file.drag_and_drop_index.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/61eb067d8482e400a63d419594ed536fd91b1479_0.file.console_dropdown_list.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/6605765b19c41006dee3f18bbd3dcedb93cfe9d3_0.file.console.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/69eb02b75f27ed0d39074c91f901ef75cdad2c7c_0.file.general.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/7507d5dbfd59babf8b199c354cc161e01626e52b_0.file.responsive_menu.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/871dac69f3951d5eb179d8ff57d4f84c238abb73_0.file.component_panel.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/87a850d6602b98804c53aec8d5f24dbb04aec53c_0.file.menu.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/9605d2608418c7226bad4c8fcc02dbcb98fa57ce_0.file.plugins_available.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/9bad3b002594a3a62b6e0089360ae978b42dfb14_0.file.bottom_menu.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/9e2154154e097da1522ea303bc099fcf599bc24d_0.file.console_item.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/a11d5f319c3afa1dfa7f685abed3c3ca501d33aa_0.file.box.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/a41bef014529acd801cd1af0e75c0e14633951c0_0.file.widget_panel_dashboard.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/a75528c8a73f3b4c6b5484a3207583cee4dc491d_0.file.feed_list.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/a7fc916caff24f27bd2c5af0bafd5d2ab15cea4c_0.file.tooltip.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/aa81fc55f74b9796e021a52c3a905534e0b0b7c0_0.file.user_field.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/af50826bc220b80f15f33afa7352ac7ab441b3fc_0.file.avatar_user_list.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/b166f447657d986ccced15dc04122f1aa370cdac_0.file.custom_html_widget.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/b75bcd7d4ebaeb1ceef27883a241933e51e4f7ef_0.file.html_document.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/bac4b8c2e8b032f0796bfe72f61b37fc940da00d_0.file.users_widget.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/bdf0e3cf96f0b8a649e4727b379bb20c3a81080d_0.file.admin.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/c4770a4a395eead28016dd76285bce1d4053f3ec_0.file.widget_menu.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/c760a1b0750866999ab6d21987d584fca4cdef7a_0.file.console_switch_language.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/c947c3a3bd3a850b6e73cb037e0d5145a8e77f4f_0.file.drag_and_drop_entity_panel.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/d0132758027fc940cf0abba342a32a1706db3677_0.file.photo_list_widget.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/d3ce959d9b7659d58b599329d54101b5d6fa2c4e_0.file.video_list_widget.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/db0b2502342c7eff8eb1814774a3bc7bb9bbb87d_0.file.job_index.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/dc3457e25f246612a503ab44fb25fb0a55a7ad54_0.file.photo_floatbox.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/e5143e8b357b66f995988b2388b1d510cf11a7af_0.file.switch_language.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/eafebda42a36c1654dbf776d553afb9f1e6ddd12_0.file.console_dropdown_hover.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/ecc060076ec07bfb07d385b2b68625f3c2c436eb_0.file.feed.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/fbc3396fb8b7ad8f6ac13ca4b3a3c75ebe66ae76_0.file.update_status.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ow_smarty/template_c/fbe8ddea1dac2e6165d9355227af5a767b87b64c_0.file.plugins_index.html.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/langs.zip" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/langs.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/views/controllers/job_add_job.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_log/error.log" afterPath="$PROJECT_DIR$/ow_log/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/activate.php" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/activate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement.php" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement_dao.php" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement_dao.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/controllers/job.php" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/controllers/job.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/deactivate.php" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/deactivate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/install.php" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/install.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/language_en/jobsearch.xml" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/language_en/jobsearch.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/language_fa-IR/jobsearch.xml" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/language_fa-IR/jobsearch.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/uninstall.php" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/uninstall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/views/controllers/job_index.html" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/views/controllers/job_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ow_plugins/jobsearch/init.php" afterPath="$PROJECT_DIR$/ow_plugins/jobsearch/init.php" />
     </list>
     <ignored path="motoshub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,7 +36,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="install.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/install.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -151,8 +85,28 @@
       <file leaf-file-name="job.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/controllers/job.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirement.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="job_add_job.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/views/controllers/job_add_job.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,34 +136,7 @@
         <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/init.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ow_plugins/event/install.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="72" column="60" lean-forward="false" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
-              <folding>
-                <marker date="1463982330000" expanded="true" signature="1732:1787" ph="DROP TABLE I... " />
-                <marker date="1463982330000" expanded="true" signature="1813:1866" ph="DROP TABLE I... " />
-                <marker date="1463982330000" expanded="true" signature="1892:1945" ph="DROP TABLE I... " />
-                <marker date="1463982330000" expanded="true" signature="1975:2477" ph="CREATE TABLE... IF" />
-                <marker date="1463982330000" expanded="true" signature="2509:3222" ph="CREATE TABLE... IF" />
-                <marker date="1463982330000" expanded="true" signature="3252:3597" ph="CREATE TABLE... IF" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirement_skill.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement_skill.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+              <caret line="10" column="96" lean-forward="true" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -255,7 +182,6 @@
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/plugin.xml" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/language_fa-IR/language.xml" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/language_en/language.xml" />
-        <option value="$PROJECT_DIR$/ow_plugins/jobsearch/init.php" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/bol/company.php" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/bol/company_dao.php" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/views/controllers/job_index.html" />
@@ -268,13 +194,15 @@
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement_skill.php" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement.php" />
         <option value="$PROJECT_DIR$/ow_log/error.log" />
-        <option value="$PROJECT_DIR$/ow_plugins/jobsearch/controllers/job.php" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/activate.php" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/deactivate.php" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/language_en/jobsearch.xml" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/language_fa-IR/jobsearch.xml" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/install.php" />
         <option value="$PROJECT_DIR$/ow_plugins/jobsearch/uninstall.php" />
+        <option value="$PROJECT_DIR$/ow_plugins/jobsearch/init.php" />
+        <option value="$PROJECT_DIR$/ow_plugins/jobsearch/controllers/job.php" />
+        <option value="$PROJECT_DIR$/ow_plugins/jobsearch/views/controllers/job_add_job.html" />
       </list>
     </option>
   </component>
@@ -610,12 +538,12 @@
       <workItem from="1501925911768" duration="6077000" />
       <workItem from="1502007124057" duration="2522000" />
       <workItem from="1502022569165" duration="1481000" />
-      <workItem from="1502188876125" duration="10853000" />
+      <workItem from="1502188876125" duration="12088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43892000" />
+    <option name="totallyTimeSpent" value="45127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,13 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ow_plugins/contactus/views/controllers/contact_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ow_plugins/contactus/controllers/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -928,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/bol/applying.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -991,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/deactivate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1011,14 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/controllers/job.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1058,6 +955,38 @@
             <marker date="1502206085265" expanded="true" signature="902:1117" ph="CREATE TABLE... ${OW_DB_PREFIX}jobsearch_requirement_skill" />
             <marker date="1502206085265" expanded="true" signature="1161:1332" ph="CREATE TABLE... ${OW_DB_PREFIX}jobsearch_skill" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="96" lean-forward="true" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/controllers/job.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/views/controllers/job_add_job.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ow_plugins/jobsearch/bol/requirement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

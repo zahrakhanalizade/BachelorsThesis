@@ -8,3 +8,5 @@
 
 
 OW::getRouter()->addRoute(new OW_Route('jobsearch.index', 'job', "JOBSEARCH_CTRL_Job", 'index'));
+OW::getRouter()->addRoute(new OW_Route('jobsearch.addjob', 'job/addjob', "JOBSEARCH_CTRL_Job", 'addJob'));
+
