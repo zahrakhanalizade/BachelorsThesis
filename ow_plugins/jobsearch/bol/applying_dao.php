@@ -1,6 +1,5 @@
 <?php
 
-
 class JOBSEARCH_BOL_RequirementDao extends OW_BaseDao {
     private static $classInstance;
     protected function __construct()
@@ -14,11 +13,11 @@ class JOBSEARCH_BOL_RequirementDao extends OW_BaseDao {
     }
     public function getDtoClassName()
     {
-        return 'JOBSEARCH_BOL_Requirement';
+        return 'JOBSEARCH_BOL_Applying';
     }
     public function getTableName()
     {
-        return OW_DF_PREFIX . 'jobsearch_requirement';
+        return OW_DF_PREFIX . 'jobsearch_applying';
 
     }
     public function getALLCompanies(){

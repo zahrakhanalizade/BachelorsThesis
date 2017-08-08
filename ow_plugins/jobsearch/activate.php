@@ -6,4 +6,4 @@
  * Time: 2:49 PM
  */
 
-OW::getNavigation()->addMenuItem(OW_Navigation::BOTTOM, 'jobsearch.index', 'jobsearch', 'bottom_menu_item', OW_Navigation::VISIBLE_FOR_ALL);
+OW::getNavigation()->addMenuItem(OW_Navigation::MAIN, 'jobsearch.index', 'jobsearch', 'main_menu_item', OW_Navigation::VISIBLE_FOR_ALL);

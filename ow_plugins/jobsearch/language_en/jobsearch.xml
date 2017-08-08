@@ -5,4 +5,11 @@
             Job Search
         </value>
     </key>
+
+    <key name="main_menu_item">
+        <value>
+            Job Search
+        </value>
+    </key>
+
 </prefix>

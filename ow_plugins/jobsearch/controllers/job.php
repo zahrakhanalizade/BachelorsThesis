@@ -12,6 +12,9 @@ class JOBSEARCH_CTRL_Job extends OW_ActionController
     {
         $this->setPageTitle("Job Search");
         $this->setPageHeading("Job Search");
+
+//        $all = JOBADS_BOL_AdDao::getInstance()->getAllAds();
+
     }
 
 

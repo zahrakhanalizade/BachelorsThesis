@@ -1,9 +1,25 @@
-<form>
-    <table class="">
-        <tr> esme sherkat</tr>
-        <tr> address</tr>
-        <tr> telephone</tr>
-        <tr> website link</tr>
+{for $i=0 ; $i< $count ; $i++}
 
-    </table>
-</form>
+<div class="ad-div right-ad-div">
+    <img src="http://localhost/eceshub/ow_userfiles/plugins/jobads/girls-1000.png" class="ad-image">
+    <label class="right-margin">{$allAds[$i]->description}</label>
+    <br>
+    <br>
+    <label class="right-margin">توانایی ها:</label>
+    <br>
+    {foreach from=$allAds[$i]->skills item="item"}
+    <div class="skills-div">
+        {$item}</div>
+    {/foreach}
+    <br>
+    {if $allAds[$i]->isOwner == true}
+    <a href="/eceshub/jobads/deletead/{$allAds[$i]->id}">
+        <div class="delete-ad">حذف</div>
+    </a>
+    {/if}
+    <a href="http://localhost/eceshub/jobads/ad/{$allAds[$i]->id}">
+        <div class="more-info">اطلاعات بیشتر</div>
+    </a>
+</div>
+
+{/for}

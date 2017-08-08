@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-08-06 01:04:54
+/* Smarty version 3.1.31, created on 2017-08-08 08:01:01
   from "D:\xampp\htdocs\motoshub\ow_system_plugins\admin\views\controllers\plugins_index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5986cda6d342a9_85768007',
+  'unifunc' => 'content_5989d22d6536e7_12970770',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5986cda6d342a9_85768007 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5989d22d6536e7_12970770 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_block_style')) require_once 'D:\\xampp\\htdocs\\motoshub\\ow_smarty\\plugin\\block.style.php';
 if (!is_callable('smarty_block_block_decorator')) require_once 'D:\\xampp\\htdocs\\motoshub\\ow_smarty\\plugin\\block.block_decorator.php';
 if (!is_callable('smarty_function_text')) require_once 'D:\\xampp\\htdocs\\motoshub\\ow_smarty\\plugin\\function.text.php';

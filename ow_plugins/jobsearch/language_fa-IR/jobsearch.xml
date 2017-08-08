@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<prefix name="jobsearch" label="Job Search" language_tag="fa" language_label="فارسی">
+<prefix name="jobsearch" label="Job Search" language_tag="fa-IR" language_label="فارسی">
     <key name="bottom_menu_item">
+        <value>
+            کاریابی
+        </value>
+    </key>
+    <key name="main_menu_item">
         <value>
             کاریابی
         </value>

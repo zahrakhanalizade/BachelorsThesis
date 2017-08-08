@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-08-05 23:27:41
+/* Smarty version 3.1.31, created on 2017-08-08 08:00:10
   from "D:\xampp\htdocs\motoshub\ow_system_plugins\base\views\components\responsive_menu.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5986b6ddbf5491_62311843',
+  'unifunc' => 'content_5989d1fa726b45_71144399',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5986b6ddbf5491_62311843 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5989d1fa726b45_71144399 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="ow_responsive_menu ow_left" id="<?php echo $_smarty_tpl->tpl_vars['uniqId']->value;?>
 ">

@@ -1,47 +1,43 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: CEBIT
- * Date: 8/6/2017
- * Time: 11:21 AM
- */
 
 class JOBSEARCH_BOL_Requirement extends OW_Entity {
 
-    public $describtion;
-    public $skills;
+    public $description;
+    public $creator;        //FK to sherkat(user)
 
     /**
      * @return mixed
      */
-    public function getDescribtion()
+    public function getCreator()
     {
-        return $this->describtion;
+        return $this->creator;
     }
 
     /**
-     * @param mixed $describtion
+     * @param mixed $creator
      */
-    public function setDescribtion($describtion)
+    public function setCreator($creator)
     {
-        $this->describtion = $describtion;
+        $this->creator = $creator;
     }
 
     /**
      * @return mixed
      */
-    public function getSkills()
+    public function getDescription()
     {
-        return $this->skills;
+        return $this->description;
     }
 
     /**
-     * @param mixed $skills
+     * @param mixed $description
      */
-    public function setSkills($skills)
+    public function setDescription($description)
     {
-        $this->skills = $skills;
+        $this->description = $description;
     }
+
+
 
 
 }

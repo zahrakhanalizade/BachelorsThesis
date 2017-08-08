@@ -6,4 +6,4 @@
  * Time: 2:49 PM
  */
 
-OW::getNavigation()->deleteMenuItem('jobsearch', 'bottom_menu_item');
+OW::getNavigation()->deleteMenuItem('jobsearch', 'main_menu_item');
