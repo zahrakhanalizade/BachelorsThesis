@@ -1,6 +1,6 @@
 <?php
 
-class JOBSEARCH_BOL_RequirementDao extends OW_BaseDao {
+class JOBSEARCH_BOL_ApplyingDao extends OW_BaseDao {
     private static $classInstance;
     protected function __construct()
     {
@@ -20,7 +20,7 @@ class JOBSEARCH_BOL_RequirementDao extends OW_BaseDao {
         return OW_DF_PREFIX . 'jobsearch_applying';
 
     }
-    public function getALLCompanies(){
+    public function getALL(){
         return $this->findAll();
     }
 

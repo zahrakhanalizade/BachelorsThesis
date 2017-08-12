@@ -1,6 +1,6 @@
 <?php
 
-class JOBSEARCH_BOL_RequirementSkillDao extends OW_BaseDao {
+class JOBSEARCH_BOL_EndorsingDao extends OW_BaseDao {
     private static $classInstance;
     protected function __construct()
     {
@@ -13,11 +13,11 @@ class JOBSEARCH_BOL_RequirementSkillDao extends OW_BaseDao {
     }
     public function getDtoClassName()
     {
-        return 'JOBSEARCH_BOL_RequirementSkill';
+        return 'JOBSEARCH_BOL_Endorsing';
     }
     public function getTableName()
     {
-        return OW_DF_PREFIX . 'jobsearch_requirement_skill';
+        return OW_DF_PREFIX . 'jobsearch_endorsing';
 
     }
     public function getALL(){

@@ -1,0 +1,19 @@
+<h1 class="label">لطفا نیازمندی های خود را در فرم زیر وارد کنید</h1>
+<br>
+{form name='addJob_form'}
+<table class="ow_table_1 ow_form ow_automargin ow_superwide">
+    <tr class="ow_alt1">
+        <td class="ow_label">{label name='description'}</td>
+        <td class="ow_value">{input name='description'}</td>
+        <td class="ow_desc ow_small"> توضیحات مربوط به فرصت شغلی را در اینجا درج نمایید </td>
+    </tr>
+    <tr class="ow_alt2">
+        <td class="ow_label"> {label name='skills'} </td>
+        <td class="ow_value">{input name='skills'}</td>
+        <td class="ow_desc ow_small">{text key='video+tags_desc'}</td>
+    </tr>
+    <tr>
+        <td class="ow_center" colspan="2"> {submit name='send' class='ow_button'} </td>
+    </tr>
+</table>
+{/form}
